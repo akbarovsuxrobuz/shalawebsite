@@ -1,0 +1,48 @@
+body {
+  height: 100vh;
+  background-color: blue  ;
+}
+
+:root {
+  --background: black;
+}
+
+/* Header styles */
+header {
+  background: var(--background);
+  color: white;
+}
+
+.navbar-nav {
+  margin: auto;
+  margin-right: 0 !important;
+}
+
+/* Home section styles */
+.home-section {
+  height: 90%;
+}
+.home-section_info {
+  width: 70%;
+}
+
+.home-section_info button{
+    border-color: black     ;
+}
+
+.home-section_img img {
+  width: 100%;
+}
+.home_icon{
+    width: 40px;
+    height: 40px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 65px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
